@@ -1,0 +1,102 @@
+Sentiment counts for Business category:
+sentiment
+ 0    100
+ 1     94
+-1     56
+Name: count, dtype: int64
+
+Sentiment counts for Election category:
+sentiment
+ 0    137
+ 1     86
+-1     27
+Name: count, dtype: int64
+
+Sentiment counts for Finance category:
+sentiment
+ 0    146
+ 1     75
+-1     29
+Name: count, dtype: int64
+
+1. Stacked Bar Graph
+Sentiment distribution across categories:
+sentiment_score  Negative  Neutral  Positive
+category                                    
+Business               56      100        94
+Election               27      137        86
+Environment            39      123        88
+Finance                29      146        75
+Health                 73      116        61
+
+2. Line Graph
+Sentiment distribution across all articles:
+sentiment_score
+Neutral     622
+Positive    404
+Negative    224
+Name: count, dtype: int64
+
+3. Bar Graph
+Sentiment comparison by top sources:
+sentiment_score     Negative  Neutral  Positive
+sourcename                                     
+abcnews.go.com             3        6         4
+article.wn.com             3        8         9
+bravenewcoin.com           1       10        12
+finance.yahoo.com          2       21         9
+forbes.com                 4       26        16
+globenewswire.com          1       16         3
+medicalxpress.com          6        5         4
+prnewswire.com             8       34        23
+smallbiztrends.com         5       17         5
+yahoo.com                 28       86        49
+
+1. Overall Sentiment Distribution Across All Articles:
+Neutral Sentiment: 622 articles (55.6% of the total)
+Positive Sentiment: 404 articles (35.8% of the total)
+Negative Sentiment: 224 articles (20.2% of the total)
+Insight: The majority of the articles have a neutral sentiment, indicating that many of the news articles are either presenting factual information without strong emotional language or focusing on balanced perspectives. Positive and negative sentiments account for 35.8% and 20.2% respectively, suggesting that the coverage might also include significant positive or negative commentary, potentially reflecting polarized opinions or reactions to election-related events.
+
+2. Sentiment Distribution by Category:
+Business: 56 Negative, 100 Neutral, 94 Positive
+Election: 27 Negative, 137 Neutral, 86 Positive
+Environment: 39 Negative, 123 Neutral, 88 Positive
+Finance: 29 Negative, 146 Neutral, 75 Positive
+Health: 73 Negative, 116 Neutral, 61 Positive
+
+Insight:
+Election Category has the highest number of neutral articles (137), indicating that election-related news is largely reporting facts without taking a clear stance. The balance of positive (86) and negative (27) sentiment shows that while some articles express support or optimism for certain candidates or outcomes, others may focus on issues or controversies.
+Health Category stands out for its higher negative sentiment (73 negative), which could reflect critical coverage of healthcare policies, the state of public health, or pandemic-related concerns leading into the elections.
+Business and Finance categories have a balanced sentiment distribution, with a slightly higher positive sentiment, suggesting that financial markets or business policies are being covered with a generally favorable tone but with enough critical analysis to warrant some negative sentiment.
+
+3. Sentiment Distribution by Source (Top 10 Sources):
+Yahoo.com: 28 Negative, 86 Neutral, 49 Positive
+Forbes.com: 4 Negative, 26 Neutral, 16 Positive
+PRNewswire.com: 8 Negative, 34 Neutral, 23 Positive
+SmallBizTrends.com: 5 Negative, 17 Neutral, 5 Positive
+Finance.yahoo.com: 2 Negative, 21 Neutral, 9 Positive
+Bravenewcoin.com: 1 Negative, 10 Neutral, 12 Positive
+GlobeNewswire.com: 1 Negative, 16 Neutral, 3 Positive
+MedicalXpress.com: 6 Negative, 5 Neutral, 4 Positive
+ABCnews.go.com: 3 Negative, 6 Neutral, 4 Positive
+Article.wn.com: 3 Negative, 8 Neutral, 9 Positive
+
+Insight:
+Yahoo.com has the highest number of articles, with a notable neutral sentiment (86). The negative sentiment (28) is higher than for most other sources, possibly reflecting critical political commentary or concerns around election-related developments.
+Forbes.com, PRNewswire.com, and Finance.yahoo.com have a relatively positive sentiment overall, particularly for finance-related content, which could indicate that these sources are focusing more on favorable economic outlooks or political stability as the election approaches.
+MedicalXpress.com and GlobeNewswire.com have relatively low numbers of positive and negative articles, which may point to a more factual, neutral approach to reporting.
+Sources like Article.wn.com and Bravenewcoin.com display more positive sentiment in their coverage, possibly focusing on solutions, opportunities, or successful outcomes related to the elections or political processes.
+
+4. Key Observations for Pre-Election Period:
+Polarization and Divisiveness: The relatively high negative sentiment in health and business categories indicates that there may be significant criticism or concern about political and economic matters. These could relate to healthcare policies, political debates, or business impacts of election-related uncertainty.
+Neutral Coverage: The neutral sentiment dominates, especially in the Election and Finance categories, pointing to a large amount of factual and balanced reporting. However, this could also suggest that news outlets are focusing more on the process (e.g., debates, rallies, policies) rather than personal or emotional commentary.
+Sentiment Shift: As the election day approaches, there may be a shift towards more positive or negative sentiments as the results or predictions come in, depending on how sources and readers react to candidates, policies, and the election outcome.
+
+5. Recommendations for Content Strategy:
+Monitor Negative Sentiment: Focus on addressing negative coverage, especially in categories like Health and Business where negativity is high. Brands and policymakers could leverage this data to improve communication strategies, clarify concerns, or provide more positive narratives as the elections approach.
+Emphasize Balanced Reporting: For election-related content, ensure a focus on balanced, fact-based information that helps reduce polarization. You might want to capitalize on the strong neutral tone that many articles have, especially around policy discussions and electoral procedures.
+Engagement with Positive Sentiment: Sources with a positive sentiment like Bravenewcoin.com could be used to understand how to frame hopeful or optimistic election narratives, possibly around economic growth or post-election unity.
+
+Conclusion:
+The sentiment analysis reveals that while much of the news coverage leading up to the U.S. elections is neutral, there are significant numbers of both positive and negative articles. Negative sentiment is prominent in specific categories like Health and Business, which might reflect concerns or criticisms about the impact of elections on these areas. By focusing on improving engagement around these issues, and understanding sentiment trends in top sources, stakeholders can better tailor their communication strategies in the final stretch leading up to the election.
